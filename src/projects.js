@@ -3,6 +3,7 @@ import bookStore from "./assets/bookStore.jpg";
 import toDoList from "./assets/toDoList.jpg";
 import simon from "./assets/simon.png";
 import dice from "./assets/dice.jpg";
+import drumKit from "./assets/drumKit.jpg";
 
 const works = [
   {
@@ -35,21 +36,21 @@ const works = [
   },
   {
     id: 5,
-    imageURL: design,
+    imageURL: simon,
     name: "Simon Game",
     githubLink: "https://github.com/bhartip2002/SimonGame-",
     websiteLink: "#portfolio"
   },
   {
     id: 6,
-    imageURL: design,
+    imageURL: drumKit,
     name: "Drum Kit",
     githubLink: "https://github.com/bhartip2002/DrumKit",
     websiteLink: "#portfolio"
   },
   {
     id: 7,
-    imageURL: design,
+    imageURL: dice,
     name: "Dice Game",
     githubLink: "https://github.com/bhartip2002/DiceGame",
     websiteLink: "#portfolio"
