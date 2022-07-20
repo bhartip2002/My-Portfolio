@@ -1,0 +1,64 @@
+footer {
+    background: var(--color-primary);
+    text-align: center;
+    padding: 3rem 0 7rem 0;
+    font-size: 0.9rem;
+    margin-top: 7rem;
+}
+
+footer a {
+    color: var(--color-bg);
+}
+
+footer__logo {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+.permalinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1rem auto 2rem;
+}
+
+.footer__socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer__socials a {
+    font-size: 1rem;
+    color: var(--color-white);
+    padding-bottom: 0.5rem;
+    border-radius: 0.7rem;
+    display: flex;
+    border: 1px solid transparent;
+}
+
+.footer__socials a:hover {
+    background: transparent;
+    color: var(--color-bg);
+}
+
+.footer__copyright {
+    color: var(--color-bg);
+}
+
+/* ########################## Media Queries (Small Devices) ############################3*/
+@media screen and (max-width: 600px) {
+    .permalinks {
+        margin: 2rem auto 2.5rem;
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+
+    .footer__socials {
+        margin-bottom: 2.5rem;
+    }
+}
