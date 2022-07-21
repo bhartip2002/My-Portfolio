@@ -1,7 +1,7 @@
 const experience = [
   {
     id: 1,
-    framework: "Node.js",
+    framework: "NodeJs",
     level: "Experienced"
   },
   {

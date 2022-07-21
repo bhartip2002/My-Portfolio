@@ -4,6 +4,8 @@ import toDoList from "./assets/toDoList.jpg";
 import simon from "./assets/simon.png";
 import dice from "./assets/dice.jpg";
 import drumKit from "./assets/drumKit.jpg";
+import tinDog from "./assets/tinDog.jpg";
+import blogWebsite from "./assets/blogWebsite.jpg";
 
 const works = [
   {
@@ -22,42 +24,42 @@ const works = [
   },
   {
     id: 3,
-    imageURL: design,
+    imageURL: blogWebsite,
     name: "Blog Website",
     githubLink: "https://github.com/bhartip2002/Blog-Project",
     websiteLink: "#portfolio"
   },
   {
     id: 4,
-    imageURL: design,
-    name: "NewsLetter Signup",
-    githubLink: "https://github.com/bhartip2002/Newsletter-SignUp",
-    websiteLink: "https://cryptic-woodland-48137.herokuapp.com/"
-  },
-  {
-    id: 5,
     imageURL: simon,
     name: "Simon Game",
     githubLink: "https://github.com/bhartip2002/SimonGame-",
     websiteLink: "#portfolio"
   },
   {
-    id: 6,
+    id: 5,
     imageURL: drumKit,
     name: "Drum Kit",
     githubLink: "https://github.com/bhartip2002/DrumKit",
     websiteLink: "#portfolio"
   },
   {
-    id: 7,
+    id: 6,
     imageURL: dice,
     name: "Dice Game",
     githubLink: "https://github.com/bhartip2002/DiceGame",
     websiteLink: "#portfolio"
   },
   {
-    id: 8,
+    id: 7,
     imageURL: design,
+    name: "NewsLetter Signup",
+    githubLink: "https://github.com/bhartip2002/Newsletter-SignUp",
+    websiteLink: "https://cryptic-woodland-48137.herokuapp.com/"
+  },
+  {
+    id: 8,
+    imageURL: tinDog,
     name: "Tindog Website",
     githubLink: "https://github.com/bhartip2002/tindogWebsite",
     websiteLink: "#portfolio"
