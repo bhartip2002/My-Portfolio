@@ -6,6 +6,7 @@ import dice from "./assets/dice.jpg";
 import drumKit from "./assets/drumKit.jpg";
 import tinDog from "./assets/tinDog.jpg";
 import blogWebsite from "./assets/blogWebsite.jpg";
+import notes from "./assets/notes.jpg";
 
 const works = [
   {
@@ -59,6 +60,13 @@ const works = [
   },
   {
     id: 8,
+    imageURL: notes,
+    name: "Notes Keeper",
+    githubLink: "https://github.com/bhartip2002/Newsletter-SignUp",
+    websiteLink: "https://cryptic-woodland-48137.herokuapp.com/"
+  },
+  {
+    id: 9,
     imageURL: tinDog,
     name: "Tindog Website",
     githubLink: "https://github.com/bhartip2002/tindogWebsite",
